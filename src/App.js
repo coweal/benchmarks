@@ -14,6 +14,11 @@ function App() {
       <div className="container">
         <FeaturedMetrics />
       </div>
+      <div className="subscriptionForm">
+        <div className="subscriptionTitle">
+          <a href="https://forms.gle/9XKZJBEhjx3EKruP6" target="_blank">Subscribe for updates »</a>
+        </div>
+      </div>
       <div className="footer">
         <Footer />
       </div>

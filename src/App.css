@@ -8,3 +8,18 @@
   text-decoration: none;
   color: inherit;
 }
+
+.subscriptionForm {
+  align-content: center;
+  width: 100%;
+}
+
+.subscriptionTitle {
+  text-align: center;
+  font-size: 35px;
+  padding: 30px 0 50px;
+}
+
+.subscriptionTitle a {
+  color: black;
+}
