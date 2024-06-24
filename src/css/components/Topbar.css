@@ -1,0 +1,24 @@
+.topbar {
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarWrapper {
+    padding: 50px 20px 30px;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .headline {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .clarification {
+    padding: 50px 0 10px;
+  }

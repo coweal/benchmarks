@@ -16,14 +16,14 @@ var stickiness = new Metric(
   9.34, 10.08, 4.5, 
   "%",
   "Stickiness", 
-  "DAU/MAU * 100.",
+  "", // DAU/MAU * 100.
   "How many of monthly active users that are active on a given day. We calculate it daily and then average over the month. Monthly active users is calculated as a sliding 30-day window."
 );
 var utilisation = new Metric(
   45.78, 48.12, 38.27,
   "%",
   "Utilisation",
-  "DAU / Users alive * 100",
+  "", // DAU / Users alive * 100
   "How many users are active among those who could act (i.e. users who we consider not churned)."
 );
 var time_to_answer = new Metric(
@@ -37,7 +37,7 @@ var churn_rate = new Metric(
   21.15, 21.14, 21.20,
   "%",
   "Churn rate",
-  "Users left / Users alive * 100",
+  "", // Users left / Users alive * 100
   "How many users left the community among those whom we consider alive."
 );
 var community_growth = new Metric(

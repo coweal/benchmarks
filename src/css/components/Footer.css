@@ -1,0 +1,22 @@
+.footerRoot {
+    padding: 20px 0px 30px;
+
+}
+
+.footerWrapper {
+    border-top: 1px #ccc solid;
+    margin: auto;
+    padding: 20px 0px 30px;
+    text-align: left;
+    width: 860px;
+}
+.logoLink {
+    float: right;
+    padding-right: 10px;
+}
+.logoLink img {
+    height: 25px;
+}
+.footerLinkSeparator {
+
+}
