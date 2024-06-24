@@ -9,7 +9,7 @@ function Footer() {
         <div className="footerLinks">
             <a href="https://www.amazon.com/dp/B0D2VDMWDW" target="_blank">Book on Amazon</a>
             <span className="footerLinkSeparator"> | </span>
-            <a href="https://course.practical-cm.com/about-author" target="_blank">About the author</a>
+            <a href="https://www.linkedin.com/in/nicolas-chabanovsky-61266074/" target="_blank">About the author</a>
             
             <a className="logoLink" href="https://practical-cm.com/">
                 <img src={logo} />
