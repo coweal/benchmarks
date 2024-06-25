@@ -13,35 +13,35 @@ class Metric {
 }
 // TBD: Make it so the numbers get updated from a file
 var stickiness = new Metric(
-  9.34, 10.08, 4.5, 
+  7.93, 8.22, 6.95, 
   "%",
   "Stickiness", 
   "", // DAU/MAU * 100.
-  "How many of monthly active users that are active on a given day. We calculate it daily and then average over the month. Monthly active users is calculated as a sliding 30-day window."
+  "How many monthly active users that are active on a given day. We calculate it daily and then average over the month. Monthly active users is calculated as a sliding 30-day window."
 );
 var utilisation = new Metric(
-  45.78, 48.12, 38.27,
+  45.56, 47.80, 37.84,
   "%",
-  "Utilisation",
+  "Utilization",
   "", // DAU / Users alive * 100
-  "How many users are active among those who could act (i.e. users who we consider not churned)."
+  "How many users are active among those who could act."
 );
 var time_to_answer = new Metric(
-  31.78, 29.93, 37.60,
+  31.46, 29.70, 37.49,
   " hrs",
   "Time to the first answer",
   "",
   "Time between starting a discussion and the first reply appearing in it."
 );
 var churn_rate = new Metric(
-  21.15, 21.14, 21.20,
+  20.65, 20.62, 20.77,
   "%",
   "Churn rate",
   "", // Users left / Users alive * 100
   "How many users left the community among those whom we consider alive."
 );
 var community_growth = new Metric(
-  3.37, 4.57, -0.49,
+  2.44, 3.84, -2.43,
   "%",
   "Community growth rate",
   "",

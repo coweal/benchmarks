@@ -10,7 +10,10 @@ function Footer() {
             <a href="https://www.amazon.com/dp/B0D2VDMWDW" target="_blank">Book on Amazon</a>
             <span className="footerLinkSeparator"> | </span>
             <a href="https://www.linkedin.com/in/nicolas-chabanovsky-61266074/" target="_blank">About the author</a>
-            
+            <span className="footerLinkSeparator"> | </span>
+            <a href="https://paypal.me/chabanovsky" target="_blank">
+                Donate
+            </a>
             <a className="logoLink" href="https://practical-cm.com/">
                 <img src={logo} />
             </a>
