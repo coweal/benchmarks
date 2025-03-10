@@ -116,7 +116,7 @@ var num_of_actions = new Metric(
   "Total number of actions performed by a user during their tenure."
 );
 
-var metrics = [stickiness, utilisation, time_to_answer, dau, daily_utilisation, daily_churn, daily_growth, mau, montly_utilisation, monthly_churn, montly_growth, new_users_monthly, user_tenure, num_of_actions];
+var metrics = [stickiness, time_to_answer, dau, daily_utilisation, daily_churn, daily_growth, mau, montly_utilisation, monthly_churn, montly_growth, new_users_monthly, user_tenure, num_of_actions];
 
 function FeaturedMetrics() {
   return (
