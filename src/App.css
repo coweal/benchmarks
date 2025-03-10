@@ -21,5 +21,6 @@
 }
 
 .subscriptionTitle a {
+  padding-bottom: 15px;
   color: black;
 }

@@ -16,7 +16,8 @@ function App() {
       </div>
       <div className="subscriptionForm">
         <div className="subscriptionTitle">
-          <a href="https://forms.gle/9XKZJBEhjx3EKruP6" target="_blank">Subscribe for updates »</a>
+          <a href="https://forms.gle/9XKZJBEhjx3EKruP6" target="_blank">Subscribe for updates »</a> 
+          <br/>
           <a href="https://app.practical-cm.com/" target="_blank">More metrics and benchmarks »</a>
         </div>
       </div>

@@ -62,7 +62,7 @@ var daily_growth = new Metric(
 
 var mau = new Metric(
   209, 270, 136,
-  "users",
+  " users",
   "Monthly active users",
   "",
   "The number of users who have posted in the community."
@@ -94,7 +94,7 @@ var montly_growth = new Metric(
 
 var new_users_monthly = new Metric(
   94, 125, 56,
-  "users",
+  " users",
   "New active users monthly",
   "",
   "The number of users who performed their first action on the platform during a given month."
@@ -102,7 +102,7 @@ var new_users_monthly = new Metric(
 
 var user_tenure = new Metric(
   54.27, 65.52, 40.97,
-  "months",
+  " months",
   "User tenure by month",
   "",
   "Time between the first and the last actions of a user in the community."
@@ -110,7 +110,7 @@ var user_tenure = new Metric(
 
 var num_of_actions = new Metric(
   11.72, 14.76, 8.03,
-  "actions",
+  " actions",
   "Number of actions by month",
   "",
   "Total number of actions performed by a user during their tenure."
